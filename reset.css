@@ -1,0 +1,32 @@
+*{
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    outline: none;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+    filter: none;
+}
+li, a{
+    filter: none;
+}
+button{
+    filter: none;
+}
+body{
+    background-color: #f4e4e4;
+}
+p{
+    line-height: 30px;
+}
