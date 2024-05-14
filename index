@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="foto-nome">
+                <img src="img/foto-nav.jpg" alt="">
+                <h1>Name</h1>
+            </div>
+
+            <button class="hamburguer" onclick="Menu()"></button>
+        </nav>
+
+        <div class="collapse" style="display: none;">
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Reservations</a></li>
+            </ul>
+            <button>See More</button>
+        </div>
+    </header>
+
+    <button id="mais">+</button>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Unique Flavour</h1>
+    
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam eaque odio ratione voluptatibus facere optio tenetur, repellendus unde vel animi adipisci eius accusamus mollitia praesentium aperia</p>
+
+            <button class="explorar">See More</button>
+        </div>
+    </section>
+
+    <main>
+        <section id="about">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, praesentium est vitae similique id voluptate! Quo, dolores quod aspernatur mollitia fugiat ad voluptatum nobis.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ab velit distinctio assumenda odio rem saepe voluptatem? Excepturi non aliquid mollitia molestias laboriosam repellat.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus libero laboriosam ratione.</p>
+        </section>
+
+        <section id="book">
+            <h3>Feel the Difference</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut voluptates fuga quibusdam consectetur accusantium? Numquam porro perferendis repellendus fugiat saepe.</p>
+
+            <button id="bt-reservar">Book Here</button>
+        </section>
+
+        <section id="faq">
+            <h2>Frequent Asked Questions (FAQ's)</h2>
+
+            <article>
+                <h3>Lorem ipsum dolor sit amet?</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, tempore cumque similique quasi doloribus at possimus perferendis accusamus, impedit assumenda commodi mollitia libero iusto! Rerum.</p>
+            </article>
+
+            <article>
+                <h3>Lorem ipsum dolor sit amet?</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, tempore cumque similique quasi doloribus at possimus perferendis accusamus, impedit assumenda commodi mollitia libero iusto! Rerum.</p>
+            </article>
+
+            <article>
+                <h3>Lorem ipsum dolor sit amet?</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, tempore cumque similique quasi doloribus at possimus perferendis accusamus, impedit assumenda commodi mollitia libero iusto! Rerum.</p>
+            </article>
+
+            <article>
+                <h3>Lorem ipsum dolor sit amet?</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, tempore cumque similique quasi doloribus at possimus perferendis accusamus, impedit assumenda commodi mollitia libero iusto! Rerum.</p>
+            </article>
+
+            <article>
+                <h3>Lorem ipsum dolor sit amet?</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, tempore cumque similique quasi doloribus at possimus perferendis accusamus, impedit assumenda commodi mollitia libero iusto! Rerum.</p>
+            </article>        
+        </section>
+    </main>
+    
+    <section id="coments">
+        <h2>What our clients say about us</h2>
+
+        <div class="clientes">
+            <p>Amazing food, cozy atmosphere. I recommend it to all food lovers!</p>
+            <div class="photo">
+                <img src="img/pessoa1.jpg" alt="Photo">
+            </div>
+            <h6>Pedro J.</h6>
+        </div>
+
+        <div class="clientes">
+            <p>The dishes are an explosion of flavors! I can’t wait to go back.</p>
+            <div class="photo">
+                <img src="img/pessoa2.jpg" alt="Photo">
+            </div>
+            <h6>Joana R.</h6>
+        </div>
+
+        <div class="clientes">
+            <p>Simply divine! Every forkful is a journey to flavor paradise.</p>
+            <div class="photo">
+                <img src="img/pessoa3.jpg" alt="Photo">
+            </div>
+            <h6>Pedro T.</h6>
+        </div>
+    </section>
+
+    <section id="flavours">
+        <h2>Unforgetable Flavours</h2>
+
+        <article>
+            <img src="img/prato1.jpg" alt="">
+
+            <h3>Lorem, ipsum.</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ipsam?</p>
+        </article>
+
+        <article>
+            <img src="img/prato2.jpg" alt="">
+
+            <h3>Lorem, ipsum.</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ipsam?</p>
+        </article>
+    </section>
+    
+    <section id="contactus">
+        <h2>Contact Us Now</h2>
+
+        <form action="">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Telephone">
+            <input type="text" placeholder="Mensagem">
+
+            <input type="submit" placeholder="Enviar Mensagem">
+        </form>
+    </section>
+
+    <section id="contacts">
+        <h2>Our Contacts</h2>
+            
+        <p>Telephone: +351 xxx xxx xxx</p>
+        <p>Email: example@example.com</p>
+        <p>Address: Rua 123</p>
+        <p>Opening hours: xxx</p>
+    </section>
+
+    <footer id="rodapé">
+        <a href="#">Menu</a>
+        <a href="#">Reservations</a>
+        <a href="#">Events</a>
+        <a href="#">About</a>
+
+        <p>&copy; 2024 Restaurant Name. All rights reserved. </p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
