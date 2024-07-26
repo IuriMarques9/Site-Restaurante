@@ -93,7 +93,7 @@ button#mais:hover{
 section#hero{
     width: 100%;
     height: 100vh;
-    background: url("/img/hero.jpg") center center no-repeat;
+    background: url("img/hero.jpg") center center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
